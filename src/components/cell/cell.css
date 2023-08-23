@@ -1,0 +1,21 @@
+.cell {
+    justify-content: center;
+    display: grid;
+  }
+  
+  .dot {
+    width: fit-content;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 100%;
+    padding: 16px;
+    transition: all 0.2 ease;
+  }
+  
+  .dot:hover {
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: orange;
+  }
